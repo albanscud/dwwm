@@ -14,17 +14,21 @@ body{
 }
 main{
     display: flex;
+    
 }
 footer{
     display: flex;
     margin-top: auto;
-    
+    justify-content: center;
 }
 .copyright{
-    justify-content: center
+    display: flex;
+    align-items: center;
 }
+
 .lien1{
     border: 1px solid black;
+    margin: auto;
 }
 h1{
     display: flex;
