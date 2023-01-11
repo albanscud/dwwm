@@ -1,45 +1,84 @@
 html, body{
-    height: 100%;
+    background-image:url(../image/fondecran.jpeg);
+    height:100%;
+    font-style: oblique;
     
 }
+div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    color: rgb(255, 238, 0);
+}
+
 body{
     display: flex;
     flex-direction: column;
-    background-color: gray;
 }
+
 .crumbs{
     display: flex;
     list-style-type: none;
     justify-content: space-between;
-}
-main{
-    display: flex;
     
 }
+
+.lien1{
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(241, 245, 242);
+    padding: 10px;
+    color: red;
+}
+
+main{
+    display: flex;
+
+}
+
+section{
+    display: flex;
+}
+
+.article1{
+    width: 50%;
+    color: rgb(173, 134, 210);
+}
+
+.article2{
+    width: 50%;
+    color: white;
+}
+
+h4, h2{
+    color: yellow;
+}
+
 footer{
     display: flex;
     margin-top: auto;
     justify-content: center;
+    color: red;
+    
 }
+
 .copyright{
     display: flex;
     align-items: center;
+    color: red;
+
 }
 
-.lien1{
-    border: 1px solid black;
-    margin: auto;
-}
-h1{
-    display: flex;
-    justify-content: center;
-    color: crimson;
-}
-article{
-    justify-content: space-between;
-    padding-bottom: 100px;
-}
-img{
-    width: 100px;
-    height: 100px;
+a {
+    color: red;
 }
